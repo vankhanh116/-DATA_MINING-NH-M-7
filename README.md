@@ -58,7 +58,7 @@ Các mô hình được huấn luyện và so sánh bao gồm:
 - **Tiền xử lí/**: Thực hiện làm sạch, chuẩn hóa và tiền xử lý dữ liệu đầu vào.
 - **SINH LUẬT KẾT HỢP/**: Khai phá luật kết hợp bằng thuật toán ECLAT và lưu trữ kết quả.
   - `SINH_LUAT_KET_HOP.ipynb`: Notebook sinh và phân tích luật kết hợp.
-  - `Ket_qua_sinh_luat_ket_hop.csv`: File kết quả các luật kết hợp.
+  - `itemsets_df.csv`: File kết quả các luật kết hợp.
 - **Train Models/**: Huấn luyện và đánh giá các mô hình học máy dự báo rủi ro tín dụng.
   - `Train_model.ipynb`: Huấn luyện mô hình nền.
   - `XGBoost.ipynb`: Huấn luyện mô hình XGBoost.
