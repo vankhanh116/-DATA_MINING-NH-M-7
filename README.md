@@ -61,8 +61,7 @@ Các mô hình được huấn luyện và so sánh bao gồm:
   - `itemsets_df.csv`: File kết quả các luật kết hợp.
 - **Train Models/**: Huấn luyện và đánh giá các mô hình học máy dự báo rủi ro tín dụng.
   - `Train_model.ipynb`: Huấn luyện mô hình nền.
-  - `XGBoost.ipynb`: Huấn luyện mô hình XGBoost.
-  - `Model_Evaluation.ipynb`: So sánh và đánh giá mô hình.
+  - `Train_with_best_model.ipynb`: Fine-tune huấn luyện model tốt nhất
 - **Credit Risk Dynamics Analysis.ipynb**: Notebook tổng hợp toàn bộ quy trình phân tích và trực quan hóa kết quả.
 - **README.md**: Mô tả tổng quan dự án và hướng dẫn sử dụng.
   
