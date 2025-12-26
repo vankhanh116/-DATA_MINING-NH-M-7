@@ -55,20 +55,18 @@ Các mô hình được huấn luyện và so sánh bao gồm:
 ---
 
 ## Cấu trúc thư mục
-├── Tiền xử lí/
-│
-├── SINH LUẬT KẾT HỢP/
-│ ├── SINH_LUAT_KET_HOP.ipynb
-│ └── itemsets_df.csv #Kết quả sinh luật kết hợp
-│
-├── Train Models/
-│ ├── Train_Mdel.ipynb
-│ ├── Train_with_best_model.ipynb
-│
-├── Credit Risk Dynamics Analysis.ipynb
----
-
-## 🗃️ Dữ liệu sử dụng
+- **Tiền xử lí/**: Thực hiện làm sạch, chuẩn hóa và tiền xử lý dữ liệu đầu vào.
+- **SINH LUẬT KẾT HỢP/**: Khai phá luật kết hợp bằng thuật toán ECLAT và lưu trữ kết quả.
+  - `SINH_LUAT_KET_HOP.ipynb`: Notebook sinh và phân tích luật kết hợp.
+  - `Ket_qua_sinh_luat_ket_hop.csv`: File kết quả các luật kết hợp.
+- **Train Models/**: Huấn luyện và đánh giá các mô hình học máy dự báo rủi ro tín dụng.
+  - `Train_model.ipynb`: Huấn luyện mô hình nền.
+  - `XGBoost.ipynb`: Huấn luyện mô hình XGBoost.
+  - `Model_Evaluation.ipynb`: So sánh và đánh giá mô hình.
+- **Credit Risk Dynamics Analysis.ipynb**: Notebook tổng hợp toàn bộ quy trình phân tích và trực quan hóa kết quả.
+- **README.md**: Mô tả tổng quan dự án và hướng dẫn sử dụng.
+  
+## Dữ liệu sử dụng
 Dự án sử dụng **4 bộ dữ liệu chính**:
 
 | Dataset | Nội dung |
